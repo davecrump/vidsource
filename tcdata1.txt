@@ -1,0 +1,6 @@
+tcprog
+testcard640
+40
+52
+CQ
+TestText
