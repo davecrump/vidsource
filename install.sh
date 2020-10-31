@@ -50,6 +50,7 @@ read LOCATOR
 
 sudo sh -c "echo $CALL > /boot/testcard/callsign.txt"
 sudo sh -c "echo $LOCATOR > /boot/testcard/locator.txt"
+sudo sh -c "echo 0000 > /boot/testcard/numbers.txt"
 
 echo
 echo Call set to $CALL and locator set to $LOCATOR
@@ -172,9 +173,6 @@ echo "${GIT_SRC}" > /home/pi/${GIT_SRC_FILE}
 # Add aliases to kill the test card generator after boot or to start it
 echo "alias stop='sudo killall camtc23a.sh'" >> /home/pi/.bash_aliases
 echo "alias start='/home/pi/vidsource/on_start.sh'" >> /home/pi/.bash_aliases
-
-# Record Version Number
-cp /home/pi/vidsource/latest_version.txt /home/pi/vidsource/installed_version.txt
 
 echo
 echo "SD Card Serial:"
