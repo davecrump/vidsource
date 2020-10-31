@@ -43,6 +43,5 @@ sudo sed -i "s/TestText/${CALL} in ${LOCATOR}/g" /boot/testcard/tcdata2.txt
 cd /boot/testcard
 sudo ./camtc23a.sh
 
-exit
 
 

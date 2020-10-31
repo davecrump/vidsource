@@ -20,7 +20,7 @@ The current installation method only needs a Windows PC connected to the same (i
 - Log in (user: pi, password: raspberry) then cut and paste the following code in, one line at a time:
 
 ```sh
-wget https://raw.githubusercontent.com/BritishAmateurTelevisionClub/vidsource/master/install.sh
+wget https://raw.githubusercontent.com/BritishAmateurTelevisionClub/vidsource/main/install.sh
 chmod +x install.sh
 ./install.sh
 ```
@@ -40,14 +40,14 @@ Then reboot, and try again.  The command asks your RPi to use Google's DNS, not 
 To load the development version, cut and paste in the following lines:
 
 ```sh
-wget https://raw.githubusercontent.com/davecrump/vidsource/master/install.sh
+wget https://raw.githubusercontent.com/davecrump/vidsource/main/install.sh
 chmod +x install.sh
 ./install.sh -d
 ```
 
 To load a version from your own GitHub repo (github.com/your_account/vidsource), cut, paste and amend the following lines:
 ```sh
-wget https://raw.githubusercontent.com/your_account/vidsource/master/install.sh
+wget https://raw.githubusercontent.com/your_account/vidsource/main/install.sh
 chmod +x install.sh
 ./install.sh -u your_account
 ```

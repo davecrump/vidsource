@@ -43,7 +43,7 @@ echo "----- Personalisation -----"
 echo "---------------------------"
 
 echo
-echo Please enter your callsign and press enter (it can be changed later)
+echo "Please enter your callsign and press enter (it can be changed later)"
 read CALL
 echo and please enter the locator for $CALL and press enter
 read LOCATOR
@@ -53,10 +53,10 @@ sudo sh -c "echo $LOCATOR > /boot/testcard/locator.txt"
 
 echo
 echo Call set to $CALL and locator set to $LOCATOR
-echo these can be changed by editing the files in /boot/testcard
+echo "these can be changed by editing the files in /boot/testcard/"
 echo
-echo The install will not continue without user input
-echo and reboot when it is finished
+echo "The install will now continue without needing any user input"
+echo "and reboot when it is finished."
 
 # Update the package manager
 echo
@@ -110,12 +110,12 @@ echo
 echo "------------------------------------------"
 echo "----- Downloading VidSource Software -----"
 echo "------------------------------------------"
-wget https://github.com/${GIT_SRC}/vidsource/archive/master.zip
+wget https://github.com/${GIT_SRC}/vidsource/archive/main.zip
 
 # Unzip the VidSource software and copy to the Pi
-unzip -o master.zip
-mv vidsource-master vidsource
-rm master.zip
+unzip -o main.zip
+mv vidsource-main vidsource
+rm main.zip
 cd /home/pi
 
 
