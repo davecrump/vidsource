@@ -1,0 +1,5 @@
+202012150
+Blank black screen between card selections 
+
+202010300
+Initial build
