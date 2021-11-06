@@ -5,7 +5,7 @@ This software build for a Raspberry Pi Zero enables it to become a very simple C
 
 The current installation method only needs a Windows PC connected to the same (internet-connected) network as a Raspberry Pi 1 2 or 3.  Do not connect a keyboard or HDMI display directly to your Raspberry Pi.  You could connect a composite video display, but it is not required at this stage.
 
-- First download the 2020-12-02 release of Raspios Buster Lite on to your Windows PC from here https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2020-12-04/2020-12-02-raspios-buster-armhf-lite.zip 
+- First download the 2021-05-07 release of Raspios Buster Lite on to your Windows PC from here https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip
 
 - Unzip the image and then transfer it to a Micro-SD Card using Win32diskimager https://sourceforge.net/projects/win32diskimager/
 
